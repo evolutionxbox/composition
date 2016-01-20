@@ -1,0 +1,25 @@
+{
+  "name": "composition-test",
+  "version": "1.0.0",
+  "description": "'A test of composition over inheritance in JS'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evolutionxbox/composition.git"
+  },
+  "keywords": [
+    "javascript",
+    "composition",
+    "inheritance",
+    "oop"
+  ],
+  "author": "Jonathan Cousins (evolutionxbox@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evolutionxbox/composition/issues"
+  },
+  "homepage": "https://github.com/evolutionxbox/composition#readme"
+}
