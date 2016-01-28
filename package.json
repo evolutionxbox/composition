@@ -4,6 +4,8 @@
   "description": "'A test of composition over inheritance in JS'",
   "main": "index.js",
   "scripts": {
+    "test": "jshint index.js",
+    "prebuild": "npm run test",
     "build": "babel index.js -d build"
   },
   "repository": {
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/evolutionxbox/composition#readme",
   "devDependencies": {
     "babel-cli": "^6.4.5",
-    "babel-preset-es2015": "^6.3.13"
+    "babel-preset-es2015": "^6.3.13",
+    "jshint": "^2.9.1"
   }
 }
